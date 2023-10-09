@@ -25,6 +25,24 @@
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-danger" type="danger">Search</button>
             </form>
+            <div class="mx-2">
+      <a href="signup.php">
+      <button class="btn btn-primary" data-toggle="modal" data-target="#signupModal">SignUp</button>
+
+      </a>
+      <a href="login.php">
+      <button class="btn btn-danger" data-toggle="modal" data-target="#loginModal" >Login</button>
+
+      </a>
+
+      <a href="logout.php">
+      <button class="btn btn-danger" data-toggle="modal" data-target="#signupModal">Logout</button>
+
+      </a>
+
+
+    </div>
+
            
           </div>
         </div>
